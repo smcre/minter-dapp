@@ -55,6 +55,11 @@ header .container {
   align-items: center;
 }
 
+header .logo {
+  text-align: left;
+  width: 350px;
+
+}
 .menu {
   display: flex;
   gap: 2rem;
