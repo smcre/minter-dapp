@@ -8,11 +8,11 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
+  --bg-color: #130036;
+  --bg-color-transparent: #1a003b80;
   --font-color: #ffffff;
-  --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --btn-bg-color: #88dbfc;
+  --accent-color: #88dbfc;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color: var(--bg-color);
+  background-color: #0d0025;
   display: flex;
   flex-flow: column;
   height: 100vh;
@@ -35,7 +35,7 @@ body {
 .container {
   display: flex;
   flex-direction: column;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
@@ -46,18 +46,20 @@ body {
 
 header {
   background-color: var(--bg-color);
-  box-shadow: var(--header-shadow);
 }
 
 header .container {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  max-width: 1100px;
 }
 
 header .logo img {
   text-align: left;
-  width: 350px;
+  max-width: 350px;
+  width: 100%;
+  padding-right: 30px;
 
 }
 .menu {
@@ -108,7 +110,7 @@ header .logo img {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: var(--bg-color);
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
@@ -116,14 +118,14 @@ header .logo img {
   text-align: center;
   text-transform: capitalize;
   transition: all 0.3s ease;
-  box-shadow: var(--header-shadow);
+  box-shadow: none;
   cursor: pointer;
   position: relative;
   text-decoration: none;
   outline: none;
 }
 .btn:hover {
-  box-shadow: none;
+  box-shadow: var(--header-shadow);
 }
 .btn:disabled {
   cursor: default;

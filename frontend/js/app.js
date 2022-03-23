@@ -52,7 +52,7 @@ const updateConnectStatus = async () => {
   const notConnected = document.querySelector('.not-connected');
   const spinner = document.getElementById("spinner");
   if (!MetaMaskOnboarding.isMetaMaskInstalled()) {
-    onboardButton.innerText = "Install MetaMask!";
+    onboardButton.innerText = "Install MetaMask";
     onboardButton.onclick = () => {
       onboardButton.innerText = "Connecting...";
       onboardButton.disabled = true;
@@ -74,7 +74,7 @@ const updateConnectStatus = async () => {
     window.contract = new web3.eth.Contract(abi, contractAddress);
     loadInfo();
   } else {
-    onboardButton.innerText = "Connect MetaMask!";
+    onboardButton.innerText = "Connect MetaMask";
     // HIDE SPINNER
     spinner.classList.add('hidden');
     notConnected.classList.remove('hidden');
@@ -324,14 +324,14 @@ async function mint() {
           countdownContainer.classList.add('hidden');
           mintedContainer.classList.remove('hidden');
         }
-        console.log("Minuted successfully!", `Transaction Hash: ${mintTransaction.transactionHash}`);
+        console.log("Minted successfully!", `Transaction Hash: ${mintTransaction.transactionHash}`);
       } else {
         const mainText = document.getElementById("mainText");
         mainText.innerText = mint_failed;
         mintButton.innerText = button_public_mint;
         mintButton.disabled = false;
 
-        console.log("Failed to mint!");
+        console.log("Error: Failed to mint.");
       }
     } catch(e) {
       const mainText = document.getElementById("mainText");
@@ -361,14 +361,14 @@ async function mint() {
           countdownContainer.classList.add('hidden');
           mintedContainer.classList.remove('hidden');
         }
-        console.log("Minuted successfully!", `Transaction Hash: ${presaleMintTransaction.transactionHash}`);
+        console.log("Minted successfully!", `Transaction Hash: ${presaleMintTransaction.transactionHash}`);
       } else {
         const mainText = document.getElementById("mainText");
         mainText.innerText = mint_failed;
         mintButton.innerText = button_presale_mint_whitelisted;
         mintButton.disabled = false;
 
-        console.log("Failed to mint!");
+        console.log("Error: Failed to mint.");
       }
     } catch(e) {
       const mainText = document.getElementById("mainText");
