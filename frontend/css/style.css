@@ -258,7 +258,7 @@ section {
   align-items: center;
   padding: 1rem;
   background-color: var(--accent-color);
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .mint-qty > span {
@@ -270,6 +270,8 @@ section {
   align-items: center;
   gap: 3rem;
   margin: auto;
+  border-radius: 10px;
+
 }
 
 .input-number {
