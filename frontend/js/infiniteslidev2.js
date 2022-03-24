@@ -15,7 +15,7 @@ https://github.com/woodroots/infiniteslidev2
 	    window.loaded = true;
 	});
 	$(function(){
-		$.fn.slide_vertical = function(options){
+		$.fn.infiniteslide = function(options){
 			//option
 			var settings = $.extend({
 				'speed': 100, //速さ　単位はpx/秒です。
@@ -26,7 +26,7 @@ https://github.com/woodroots/infiniteslidev2
 			},options);
 			
 			var setCss = function(obj,direction){
-				$(obj).wrap('<div class="slide_vertical_wrap"></div>').parent().css({
+				$(obj).wrap('<div class="infiniteslide_wrap"></div>').parent().css({
 					overflow: 'hidden'
 				});
 
@@ -98,7 +98,7 @@ https://github.com/woodroots/infiniteslidev2
 			var setAnim = function(obj,id,direction,speed){
 				var num = getNum(obj,direction);
 				if(direction == 'up' || direction == 'down'){
-					$(obj).parent('.slide_vertical_wrap').css({
+					$(obj).parent('.infiniteslide_wrap').css({
 						height: num + 'px'
 					});
 				}
