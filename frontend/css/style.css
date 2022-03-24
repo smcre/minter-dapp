@@ -301,6 +301,10 @@ section {
   font-size: 14px;
 }
 
+.total-price-container h3 {
+  font-size: 14px;
+}
+
 /* MINTED CONTAINER */
 
 .minted-container {
