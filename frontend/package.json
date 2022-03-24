@@ -19,6 +19,7 @@
   "homepage": "https://github.com/codeSTACKr/nft-landing-page#readme",
   "dependencies": {
     "@glidejs/glide": "^3.5.2",
+    "jquery": "^3.6.0",
     "node-fetch": "^2.6.7"
   }
 }
