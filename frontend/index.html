@@ -28,10 +28,7 @@
     <link rel="stylesheet" href="css/three-dots.min.css" />
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-     <script>$('.slide_vertical').infiniteslide({
-      direction: 'down',
-      pauseonhover: false
-    });</script>
+
     <style>.slide_vertical_wrap {
       position: fixed;
       left: 0;
@@ -207,6 +204,13 @@
             <img src="images/slider/6.jpg" /></li>
         </ul>
       </div>
+      <script>$('.slide_vertical').infiniteslide({
+        speed: 300,
+        direction: 'down',
+        responsive: 'true',
+        pauseonhover: 'false',
+      });
+        </script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
