@@ -242,6 +242,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 800px;
 }
 
 .info-container {
@@ -297,6 +298,7 @@ section {
 
 .total-price-container p {
   color: var(--accent-color);
+  font-size: 30px;
 }
 
 /* MINTED CONTAINER */
@@ -321,6 +323,10 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
+}
+
+button .mint-btn {
+background: none !important;
 }
 
 /* SLIDDER */
