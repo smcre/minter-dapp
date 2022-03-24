@@ -31,15 +31,42 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="/frontend/js/infiniteslidev2.js"></script>
 
-    <style>
-    .slide_vertical_wrap {
-      position: fixed;
-      left: 0;
-      top: 0;
-      height: 100vh;
-      overflow: hidden;
-    }
-        </style>
+    <style type="text/css">
+      .slide_vertical_wrap {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100vh;
+        overflow: hidden;
+      }
+  
+      .slide_vertical_wrap img {
+        vertical-align: bottom;
+      }
+  
+      .section_vertical {
+        margin-left: 350px;
+      }
+  
+      .section_vertical header {
+        background: #eee;
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .section_vertical header h1 {
+        font-size: 1.5em;
+        font-weight: bold;
+      }
+    </style>
+    <script type="text/javascript">
+      $(function () {
+        $('.slide_vertical').infiniteslide({
+          direction: 'down',
+          pauseonhover: false
+        });
+      });
+    </script>
   </head>
   <body>
     <header>
@@ -185,10 +212,9 @@
 
     <div id="spinner" class="dot-spin"></div>
 
-    
-      <div class="slide_vertical_wrap">
-        <div class="slide_vertical">
-          <ul>
+   
+        <div class="slide_vertical_wrap">
+          <ul class="slide_vertical">
           <li>
             <img src="images/slider/1.jpg" />
           </li>
@@ -207,7 +233,6 @@
           <li>
             <img src="images/slider/6.jpg" /></li>
         </ul></div>
-      </div>
     <script src="js/metamask-onboarding.bundle.js"></script>
     <script src="js/web3.min.js"></script>
     <script src="js/constants.js"></script>
