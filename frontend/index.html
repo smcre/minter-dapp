@@ -28,10 +28,18 @@
     <link rel="stylesheet" href="css/three-dots.min.css" />
     <link rel="stylesheet" href="css/splide.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <script>$(function(){
-      $('.infiniteslide').infiniteslide({
-      });
+     <script>$('.slide_vertical').infiniteslide({
+      direction: 'down',
+      pauseonhover: false
     });</script>
+    <style>.slide_vertical_wrap {
+      position: fixed;
+      left: 0;
+      top: 0;
+      height: 100vh;
+      overflow: hidden;
+    }
+        </style>
   </head>
   <body>
     <header>
@@ -178,8 +186,8 @@
     <div id="spinner" class="dot-spin"></div>
 
     
-      <div class="infiniteslide_wrap">
-        <ul class="infiniteslide">
+      <div class="slide_vertical_wrap">
+        <ul class="slide_vertical">
           <li>
             <img src="images/slider/1.jpg" />
           </li>
