@@ -22,7 +22,7 @@ https://github.com/woodroots/infiniteslidev2
 				'direction': 'down', //up/down/left/rightから選択
 				'pauseonhover': false, //マウスオーバーでストップ
 				'responsive': true, //子要素の幅を%で指定しているとき
-				'clone': 1
+				'clone': 2
 			},options);
 			
 			var setCss = function(obj,direction){
