@@ -275,7 +275,8 @@ section {
   gap: 3rem;
   margin: auto;
   border-radius: 10px;
-
+  background-color: transparent !important;
+  border: 5px solid var(--btn-bg-color);
 }
 
 .input-number {
