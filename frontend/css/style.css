@@ -257,7 +257,7 @@ section {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1rem 0rem;
   background-color: transparent;
   border-radius: 10px;
 }
