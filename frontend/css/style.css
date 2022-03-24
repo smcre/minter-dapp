@@ -104,6 +104,14 @@ header .logo img {
   font-weight: bold;
 }
 
+.slide_vertical_wrap {
+	position: fixed;
+	left: 0;
+	top: 0;
+	height: 100vh;
+	overflow: hidden;
+}
+
 /* BUTTONS */
 
 .btn {
