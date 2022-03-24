@@ -159,7 +159,7 @@ header .logo img {
 }
 
 .show-card {
-  opacity: 1;
+  opacity: .8;
   transform: translateX(0);
 }
 
