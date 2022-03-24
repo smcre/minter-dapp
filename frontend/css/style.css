@@ -394,7 +394,7 @@ background: none !important;
     font-size: 1rem;
   }
   .countdown h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     margin: 1rem 0;
   }
   .countdown h2 {
@@ -404,7 +404,7 @@ background: none !important;
     font-size: 1rem;
   }
   .card {
-    padding: 1rem;
+    padding: 3rem;
   }
   .mint-qty .btn {
     padding: 1rem;
