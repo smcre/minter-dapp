@@ -24,7 +24,7 @@
 }
 
 body {
-  background-color :#0c0022;
+  background-image: url('https://rainbrosnft-mint.netlify.app/images/rainbro_bg.jpg');
   background-repeat: repeat;
   display: flex;
   flex-flow: column;
