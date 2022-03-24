@@ -15,18 +15,18 @@ https://github.com/woodroots/infiniteslidev2
 	    window.loaded = true;
 	});
 	$(function(){
-		$.fn.infiniteslide = function(options){
+		$.fn.slide_vertical = function(options){
 			//option
 			var settings = $.extend({
 				'speed': 100, //速さ　単位はpx/秒です。
-				'direction': 'up', //up/down/left/rightから選択
+				'direction': 'down', //up/down/left/rightから選択
 				'pauseonhover': false, //マウスオーバーでストップ
 				'responsive': true, //子要素の幅を%で指定しているとき
-				'clone': 6
+				'clone': 1
 			},options);
 			
 			var setCss = function(obj,direction){
-				$(obj).wrap('<div class="infiniteslide_wrap"></div>').parent().css({
+				$(obj).wrap('<div class="slide_vertical_wrap"></div>').parent().css({
 					overflow: 'hidden'
 				});
 
@@ -98,7 +98,7 @@ https://github.com/woodroots/infiniteslidev2
 			var setAnim = function(obj,id,direction,speed){
 				var num = getNum(obj,direction);
 				if(direction == 'up' || direction == 'down'){
-					$(obj).parent('.infiniteslide_wrap').css({
+					$(obj).parent('.slide_vertical_wrap').css({
 						height: num + 'px'
 					});
 				}
