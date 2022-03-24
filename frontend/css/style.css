@@ -152,7 +152,7 @@ header .logo img {
   border: 0px solid var(--accent-color);
   box-shadow: none;
   padding: 5rem;
-  margin: 5rem auto;
+  margin: 10rem auto;
   opacity: 0;
   transform: translateX(100vw);
   transition: all 0.5s ease-in-out;
