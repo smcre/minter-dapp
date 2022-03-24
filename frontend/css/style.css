@@ -24,7 +24,6 @@
 }
 
 body {
-  background-image: url("/images/rainbro_bg.jpg");
   background-color :#0c0022;
   background-repeat: repeat;
   display: flex;
@@ -43,7 +42,6 @@ body {
   justify-content: center;
   overflow: hidden;
 }
-
 /* HEADER */
 
 header {
