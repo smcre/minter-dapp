@@ -298,11 +298,11 @@ section {
 
 .total-price-container p {
   color: var(--accent-color);
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .total-price-container h3 {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* MINTED CONTAINER */
