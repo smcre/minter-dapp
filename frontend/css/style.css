@@ -151,7 +151,7 @@ header .logo img {
   border-radius: 100px;
   border: 0px solid var(--accent-color);
   box-shadow: none;
-  padding: 5rem;
+  padding: 3rem;
   margin: 10rem auto;
   opacity: 0;
   transform: translateX(100vw);
