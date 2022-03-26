@@ -40,7 +40,7 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: hidden;
+  overflow: visible;
 }
 /* HEADER */
 
@@ -71,15 +71,15 @@ header .logo img {
 /* NOT CONNECTED */
 .not-connected {
   align-items: center;
-  height: 100%;
+  height: auto;
   text-align: center;
   margin: 5% auto;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
   background-color:#130036;
-  width: auto;
-  max-width: 750px;
+  width:100%;
+  max-width: 900px;
   border-radius: 100px;
 }
 
@@ -106,6 +106,21 @@ header .logo img {
   line-height: 1.8;
 }
 
+.not-connected img {
+  width: auto;
+  height: auto;
+}
+
+.welcome {
+  width: 100%;
+  max-width: 750px;
+  height: auto;
+  padding: 25px;
+}
+
+.welcome img {
+  width: 70%;
+}
 .not-connected a {
   text-decoration: none;
   color: var(--accent-color);

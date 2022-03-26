@@ -2,8 +2,8 @@ const contractAddress = "0x0AD53A72a54b62808980caD83e1f9169FB2cd5E2"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Meet the Rainbros!";
-const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = 'Rainbros are a NFT collection consisting of 5,000 one-of-a-kind portraits of the citizens of Planet RGB, some more rare than others, created by graphic artist Scott McPherson.';
+const welcome_h2 = "Connect to MetaMask above to get started";
+const welcome_p = 'Rainbros are a NFT collection consisting of 5,000 one-of-a-kind portraits of an alien species whos planet is much like ours, only more colorful. You may even see some familiar faces among them. The images, some more rare than others (and a few very rare), were created by New York-based graphic artist Scott McPherson.';
 const h1_presale_coming_soon = "NFT Drop Coming Soon!";
 const h1_presale_mint = "Pre-Sale Minting is Now Open.";
 const h1_public_mint = "Public Minting is Now Open.";
