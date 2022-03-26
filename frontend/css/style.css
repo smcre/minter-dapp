@@ -73,10 +73,14 @@ header .logo img {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 5% auto;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
+  background-image:url("https://rainbrosnft-mint.netlify.app/frontend/images/MeetTheRainbros.jpg");
+  width: auto;
+  max-width: 750px;
+  border-radius: 100px;
 }
 
 .show-not-connected {
@@ -89,6 +93,11 @@ header .logo img {
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
+}
+
+.not-connected h2{
+  color:#88dbfc;
+  margin-top: 20px;
 }
 
 .not-connected p {
@@ -159,7 +168,6 @@ header .logo img {
   border-radius: 100px;
   border: 0px solid var(--accent-color);
   box-shadow: none;
-  padding: 3rem;
   margin: 10rem auto;
   opacity: 0;
   transform: translateX(100vw);
