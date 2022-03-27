@@ -31,6 +31,7 @@ body {
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
+  overflow: hidden;
 }
 
 .container {
@@ -93,6 +94,22 @@ header .logo img {
   font-style: italic;
   margin: 2rem 0;
   font-size: 3.5rem;
+}
+
+h1#welcomeH1{
+  display: none;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .not-connected h2{
@@ -399,6 +416,10 @@ background: none !important;
 @media screen and (max-width: 768px) {
   .menu {
     gap: 1rem;
+  }
+
+  .column {
+    width: 100%;
   }
   .wallet-btn {
     margin-left: 0;
