@@ -502,7 +502,7 @@ margin: 1rem auto;}
     background-color: var(--bg-color-transparent);
     border-radius: 100px;
     padding: 2rem;
-    margin: .5rem auto;
+    margin: 1rem auto;
   }
 
   .not-connected .left img {
