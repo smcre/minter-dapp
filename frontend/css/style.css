@@ -201,7 +201,7 @@ h1#welcomeH1{
   border: 3px solid var(--accent-color);
   color: var(--accent-color);
   margin-top: 20px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 
 /* CARD */
@@ -253,7 +253,7 @@ section {
 .countdown ul {
   display: flex;
   gap: 1.5rem;
-  margin-left: 18px;
+  margin-left: 15px;
 }
 .countdown .clock-item {
   list-style: none;
