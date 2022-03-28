@@ -90,8 +90,7 @@ header .logo img {
 }
 
 .not-connected h1 {
-  text-shadow: 2px 2px 0 var(--accent-color);
-  font-style: italic;
+  font-style: none;
   margin: 2rem 0;
   font-size: 3.5rem;
 }
@@ -115,6 +114,7 @@ h1#welcomeH1{
 .not-connected h2{
   color:#88dbfc;
   margin-top: 20px;
+  font-family: var(--font-primary);
 }
 
 .not-connected p {
@@ -126,7 +126,7 @@ h1#welcomeH1{
 .not-connected img {
   width: auto;
   height: auto;
-  border-radius: 10px 0px 0px 10px;
+  border-radius: 100px 0px 0px 100px;
 }
 
 .welcome {
@@ -315,7 +315,8 @@ section {
 .countdown img {
   width: auto;
   height: 450px;
-}
+  border-radius: 80px 0px 0px 80px;
+  }
 
 .column .left img {
   margin-left: 40px;
