@@ -41,7 +41,6 @@ body {
   margin: 0 auto;
   padding: 1rem 2rem;
   justify-content: center;
-  overflow: visible;
 }
 /* HEADER */
 
@@ -480,10 +479,14 @@ background: none !important;
 
 body {
   background-size: contain;
+
 }
 
-  .menu {
-    gap: 1rem;
+.card{
+margin: 1rem auto;}
+
+  .social {
+    display: none;
   }
 
   .column {
