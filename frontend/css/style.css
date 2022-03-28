@@ -103,6 +103,10 @@ h1#welcomeH1{
   width: 50%;
 }
 
+.row{
+  width: 100%;
+}
+
 /* Clear floats after the columns */
 .row:after {
   content: "";
