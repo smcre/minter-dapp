@@ -135,7 +135,7 @@ h1#welcomeH1{
 
 .welcome {
   width: 100%;
-  max-width: 750px;
+  max-width: 800px;
   height: auto;
   padding: 15px 10px;
 }
@@ -223,6 +223,7 @@ h1#welcomeH1{
   transition: all 0.5s ease-in-out;
   width: auto;
   height: auto;
+  max-width: 900px;
   padding: 20px;
   padding-bottom: 40px;
 }
