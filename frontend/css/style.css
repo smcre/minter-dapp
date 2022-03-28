@@ -127,10 +127,16 @@ h1#welcomeH1{
   line-height: 1.8;
 }
 
-.not-connected img {
+.not-connected .left img {
+  width: auto;
+  height: 500px;
+  border-radius: 80px 0px 0px 80px;
+}
+
+.not-connected .right img {
   width: auto;
   height: auto;
-  border-radius: 80px 0px 0px 80px;
+  border-radius: none;
 }
 
 .welcome {
