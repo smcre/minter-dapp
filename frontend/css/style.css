@@ -9,7 +9,7 @@
   --font-secondary: "Lexend Deca", serif;
   --font-code: "Roboto", monospace;
   --bg-color: #130036;
-  --bg-color-transparent: #1a003b80;
+  --bg-color-transparent: #1a003bd8;
   --font-color: #ffffff;
   --btn-bg-color: #88dbfc;
   --accent-color: #88dbfc;
@@ -477,6 +477,8 @@ background: none !important;
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 768px) {
+
+
   .menu {
     gap: 1rem;
   }
@@ -544,7 +546,7 @@ background: none !important;
     font-size: 1rem;
   }
   .card {
-    padding: 3rem;
+    padding: 2rem;
   }
   .mint-qty .btn {
     padding: 1rem;
