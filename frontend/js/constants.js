@@ -2,7 +2,7 @@ const contractAddress = "0x0AD53A72a54b62808980caD83e1f9169FB2cd5E2"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Meet the Rainbros!";
-const welcome_h2 = "Connect to MetaMask above to get started";
+const welcome_h2 = "Connect to MetaMask to get started";
 const welcome_p = 'We are an NFT collection consisting of <strong>5,000 one-of-a-kind portraits </strong> of our colorful species. You may even see some familiar faces among us. <br> <br>The NFTs minted during the presale wont be revealed until the public sale begins on April 8 at 8PM EST.';
 const h1_presale_coming_soon = "NFT Dropping Soon!";
 const h1_presale_mint = "Now Open for Presale Minting!";
@@ -12,7 +12,7 @@ const h2_presale_mint = "Public Minting Countdown";
 const p_presale_coming_soon = "Gain access to the limited pre-sale on April 1.";
 const p_presale_mint_not_whitelisted = "You are not whitelisted for the pre-sale.";
 const p_presale_mint_whitelisted = "You're on the whitelist for the pre-sale!";
-const p_presale_mint_already_minted = "You've already claimed your whitelist mint(s). Thank you!";
+const p_presale_mint_already_minted = "You've claimed your whitelist mint(s). Thank you!";
 const p_public_mint = "No whitelist needed. Public minting is now open!";
 const button_presale_coming_soon = "Get on the whitelist";
 const button_presale_mint_whitelisted = "Mint Your Special NFT";
