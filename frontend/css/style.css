@@ -499,10 +499,10 @@ margin: 1rem auto;}
     max-width: 8rem;
   }
   .not-connected {
-    background-color: var(--bg-color-transparent);
+    background-color: var(--bg-color);
     border-radius: 100px;
-    padding: 2rem;
-    margin: 1rem auto;
+    padding: 1rem;
+    margin: 1rem 1rem;
   }
 
   .not-connected .left img {
