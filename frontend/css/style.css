@@ -478,6 +478,9 @@ background: none !important;
 
 @media screen and (max-width: 768px) {
 
+body {
+  background-size: contain;
+}
 
   .menu {
     gap: 1rem;
