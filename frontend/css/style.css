@@ -164,6 +164,9 @@ h1#welcomeH1{
 	overflow: hidden;
 }
 
+.intro {
+  margin-left: 40px;
+}
 /* BUTTONS */
 
 .btn {
