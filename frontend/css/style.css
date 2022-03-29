@@ -447,6 +447,7 @@ input#mintInput {
   background: rgba(124,215,251,.2);
   border: 1px solid var(--accent-color);
   color: #ffffff;
+  width: 30%;
 }
 
 #mintDecrement {
