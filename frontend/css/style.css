@@ -355,7 +355,8 @@ section {
   flex-direction: column;
   justify-content: center;
   margin: 0 auto;
-  background-color:#0b0020
+  background-color:#0b0020;
+  border-radius: 0px 0px 80px 0px;
 }
 
 .info-container {
