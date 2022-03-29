@@ -447,6 +447,16 @@ input#mintInput {
   border: 1px solid var(--accent-color);
 }
 
+#mintDecrement {
+  background-color: var(--accent-color);
+  border-radius: 10px 0px 0px 10px;
+}
+
+#mintIncrement {
+  background-color: var(--accent-color);
+  border-radius: 0px 10px 10px 0px;
+}
+
 button .mint-btn {
 background: none !important;
 }
