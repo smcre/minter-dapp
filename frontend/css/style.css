@@ -461,7 +461,7 @@ input#mintInput {
   border: none !important;
   box-shadow: none;
 }
-#setQtyMax .btn {
+button #setQtyMax .btn {
   background:var(--accent-color) !important;
   border-radius: 10px;
   border: none !important;
