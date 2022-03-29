@@ -467,6 +467,7 @@ button#setQtyMax.btn {
   border-radius: 10px;
   border: none !important;
   box-shadow: none;
+  width: 40%;
 }
 
 button .mint-btn {
