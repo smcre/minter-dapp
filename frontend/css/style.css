@@ -354,7 +354,6 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 450px;
   margin: 0 auto;
 }
 
@@ -363,7 +362,7 @@ section {
   justify-content: space-between;
   width: 100%;
   text-align: center;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .mint-qty {
