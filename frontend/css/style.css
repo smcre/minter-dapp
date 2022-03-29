@@ -451,11 +451,15 @@ input#mintInput {
 #mintDecrement {
   background-color: var(--accent-color);
   border-radius: 10px 0px 0px 10px;
+  border: none !important;
+  box-shadow: none;
 }
 
 #mintIncrement {
   background-color: var(--accent-color);
   border-radius: 0px 10px 10px 0px;
+  border: none !important;
+  box-shadow: none;
 }
 
 button .mint-btn {
