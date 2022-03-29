@@ -350,12 +350,12 @@ section {
 /* MINT CONTAINER */
 
 .mint-container {
-  width: 80%;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  max-width: 800px;
-  margin: 0 auto;
+  max-width: 450px;
+  float:right;
 }
 
 .info-container {
