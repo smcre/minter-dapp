@@ -443,7 +443,7 @@ section {
   margin: 1rem 0;
 }
 button #mintInput {
-  background: rgba(124,215,251,.7);
+  background: rgba(124,215,251,.2);
   border: 1px solid var(--accent-color);
 }
 
