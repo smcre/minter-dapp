@@ -283,9 +283,9 @@ button:visited{
 	opacity:.9;
 }
 
-.className:active {
-  -webkit-animation: none;
-          animation: none;
+button:active {
+  animation: none;
+}
 
 .btn {
   display: inline-block;
