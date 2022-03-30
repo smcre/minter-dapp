@@ -196,13 +196,13 @@ button {
 	font-size:16px;
 	border:none;
 	color:#12002e;
-	opacity:.9;
+	opacity:1;
 	position:relative;
 	z-index:2;
 	box-sizing:border-box;
-	animation:scrollbg linear 6s infinite;
+	animation:scrollbg linear 6s infinite, dundundun linear 1.3s infinite;
 	transition:.2s ease;
-	filter:saturate(.6);
+	filter:saturate(1);
 	cursor:pointer;
 }
 @keyframes scrollbg {
@@ -230,9 +230,9 @@ button {
 	}
 }
 button:hover {
-	color:#c5ccd8;
-	animation:scrollbg linear 6s infinite, dundundun linear 1.3s infinite;
-	filter:saturate(1);
+	color:#ffffff;
+	animation: scrollbg linear 6s infinite;
+	filter:saturate(.8);
 	opacity:1;
 }
 button:active {
@@ -253,7 +253,7 @@ button:before {
 	border-radius:.1em;
 	z-index:-1;
 }
-button:active:before {
+button:before {
 	opacity: .9;
 }
 button:after {
@@ -269,12 +269,18 @@ button:after {
 	border-radius:.1em;
 	z-index:-2;
 }
-button:hover:after {
+button:after {
 	opacity:1;
 }
-button:active:after {
+button:after {
 	opacity:1;
 	filter:blur(48px);
+}
+button:visited{
+  color:#0d002e;
+	animation: scrollbg linear 6s infinite;
+	filter:saturate(.8);
+	opacity:.9;
 }
 
 .btn {
