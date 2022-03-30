@@ -433,16 +433,17 @@ section {
 .minted-container h1 {
   font-size: 6rem;
   margin-bottom: 2rem;
-  color:#32f087
+  color:#32f087;
 }
 
 .minted-container h2 {
-  font-size: 2rem;
-  margin-bottom: .5rem;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color:#32f087;
 }
 
 .minted-container p {
-  margin: .5rem 0;
+  margin: .5rem 0 .3rem;
 }
 input#mintInput {
   background: rgba(124,215,251,.2);
