@@ -189,6 +189,7 @@ button {
 		var(--gradient),var(--gradient),var(--gradient));
 	/* It actually scrolls from the second gradient to the third so the left and right edges aren't fkted up */
 	background-size:600%;
+  font-family: var(--font-secondary);
 	outline:0;
 	padding: 10px 20px;
 	border-radius:100px;
