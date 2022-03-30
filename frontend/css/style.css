@@ -235,7 +235,7 @@ button:hover {
 	filter:saturate(.8);
 	opacity:1;
 }
-button:focus {
+button:active {
 	color:#fff;
 	animation:scrollbg linear .5s infinite;
 	filter:saturate(1);
@@ -281,10 +281,6 @@ button:visited{
 	animation: scrollbg linear 6s infinite;
 	filter:saturate(.8);
 	opacity:.9;
-}
-
-button:active {
-  animation: none;
 }
 
 .btn {
