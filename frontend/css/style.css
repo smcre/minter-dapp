@@ -25,13 +25,14 @@
 
 body {
   background-image: url('https://rainbrosnft-mint.netlify.app/images/rainbro_bg_color.jpg');
-  background-repeat: no-repeat;
+  background-repeat:repeat;
   display: flex;
   flex-flow: column;
   height: 100vh;
   color: var(--font-color);
   font-family: var(--font-primary);
   background-size: contain;
+  max-width: 1200px;
 }
 
 .container {
