@@ -76,7 +76,7 @@ header .logo img {
 
 /* NOT CONNECTED */
 .not-connected {
-  height: auto;
+  height: 100%;
   text-align: center;
   margin: 5% auto;
   opacity: 0;
@@ -85,6 +85,7 @@ header .logo img {
   background-color:#130036;
   width:100%;
   border-radius: 100px;
+  max-width: 900px;
 }
 
 .show-not-connected {
