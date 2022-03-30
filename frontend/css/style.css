@@ -24,7 +24,7 @@
 }
 
 body {
-  background-image: url('https://rainbrosnft.com/images/rainbro_bg_color.jpg');
+  background-image: url('https://rainbrosnft.com/frontend/images/rainbro_bg_color.jpg');
   background-repeat:repeat;
   display: flex;
   flex-flow: column;
