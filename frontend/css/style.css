@@ -333,8 +333,6 @@ section {
   }
 
 .countdown .left img {
-  margin-left: 15px;
-  margin-top: 15px;
   border-radius: 80px 0px 0px 0px;
 }
 
@@ -356,7 +354,7 @@ section {
   margin: 0 auto;
   background-color:#0b0020;
   border-radius: 0px 0px 80px 0px;
-  padding: 40px;
+  padding: 50px;
 }
 
 .info-container {
