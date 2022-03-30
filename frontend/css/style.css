@@ -64,8 +64,12 @@ header .logo img {
 }
 .menu {
   display: flex;
-  gap: 2rem;
+  gap: 1rem;
   align-items: center;
+}
+
+.menu a {
+  margin-right: 5px;
 }
 
 /* NOT CONNECTED */
