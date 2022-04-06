@@ -2,7 +2,7 @@ const contractAddress = "0x0AD53A72a54b62808980caD83e1f9169FB2cd5E2"; //Replace 
 const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Meet the Rainbros!";
-const welcome_h2 = "Connect to MetaMask to get started";
+const welcome_h2 = "Connect to wallet to get started";
 const welcome_p = 'We are an NFT collection consisting of <strong>5,000 one-of-a-kind portraits </strong> of our colorful species. You may even see some familiar faces among us. <br> <br>The NFTs minted during the presale wont be revealed until the public sale begins on April 8 at 8PM EST.';
 const h1_presale_coming_soon = "NFT Dropping Soon!";
 const h1_presale_mint = "Now Open for Presale Minting!";
